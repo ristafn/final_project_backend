@@ -100,7 +100,7 @@ class PatientsController {
 
       res.status(200).json(data);
     } else {
-      response.empty(res);
+      response.empty(res, "Patients Not Found!");
     }
   }
 
